@@ -1,3 +1,13 @@
+
+
+# GMR's Algo Machine
+
+A Spotify Playlist Recommendation Service
+
+<img src="https://s3.gifyu.com/images/loading2.gif" alt="loading2.gif" border="0" height = "150" width = "200"/>
+
+## Setup
+
 REQUIREMENTS:
 
   + Create an environment, upgrade to latest version of Python, if using conda: `conda install python==3.7`
@@ -8,16 +18,13 @@ REQUIREMENTS:
 
 + Set your environment variables: `CLIENT_ID` and `CLIENT_SECRET`, from the Spotify API. Configure your Spotify API application by adding the redirect URI of "http://localhost:5000/callback/".
 
-+++++++++++++++++++++++++++++
+## Usage
 
 Activate with: `FLASK_APP=web_app flask run`
 
 Open browser, navigate to localhost:5000
 
-
-++++++++++++++++++++++++++++++
-
-Testing
+## Testing
 
 Install pytest: `pip install pytest`
 
